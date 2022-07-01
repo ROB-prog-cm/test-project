@@ -1,0 +1,66 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-bottom: 1px solid gray;
+  border-top: 1px solid gray;
+  margin: 10px 0;
+
+
+  .itemContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .itemMain {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .colorRed {
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    font-size: 18px;
+    margin-top: 5px;
+    background-color: #d9381e;
+    color: aliceblue;
+  }
+
+  .colorYellow {
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    font-size: 18px;
+    margin-top: 5px;
+    background-color: #4caf50;
+    color: aliceblue;
+  }
+
+  .colorBlue {
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    font-size: 18px;
+    margin-top: 5px;
+    background-color: rgb(0, 36, 158);
+    color: aliceblue;
+  }
+
+  .colorBlack {
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    font-size: 18px;
+    margin-top: 5px;
+    background-color: #111010;
+    color: aliceblue;
+  }
+}
